@@ -90,4 +90,4 @@ npm run dev
 
 # Frontend
 cd frontend
-npm start
+npm start 
