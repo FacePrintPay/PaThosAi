@@ -3,22 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaThosAi | Constellation25 Sovereign Build</title>
+    <meta name="description" content="Constellation25 Sovereign Module">
+    <title>Constellation25 | Sovereign Module</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: 'Courier New', monospace; background: #0d0d0d; color: #00ff00; text-align: center; padding: 40px; margin: 0; }
-        h1 { text-shadow: 0 0 10px #00ff00; font-size: 2.5rem; margin-bottom: 10px; }
-        p { font-size: 1.2rem; color: #ccc; }
-        .badge { background: #003300; border: 1px solid #00ff00; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 20px; font-weight: bold; }
-        a { color: #00ff00; text-decoration: none; border-bottom: 1px dashed #00ff00; }
-        footer { margin-top: 50px; font-size: 0.8rem; opacity: 0.6; }
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: #0a0a0f; color: #e2e8f0; }
+        .c25-gradient { background: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .c25-card { background: #12121a; border: 1px solid #1e293b; border-radius: 12px; padding: 24px; transition: all 0.3s ease; }
+        .c25-card:hover { border-color: #00ff88; transform: translateY(-4px); box-shadow: 0 10px 30px rgba(0, 255, 136, 0.1); }
     </style>
 </head>
-<body>
-    <h1>⚡ PaThosAi</h1>
-    <p>Sovereign Build Deployed via Constellation25 Agents</p>
-    <div class="badge">Powered by Banani AI & CyGeL</div>
-    <br><br>
-    <a href="#">Access Application Interface</a>
-    <footer>© 2024 CyGeL White • FacePrintPay Ecosystem • Localhost Sovereignty</footer>
+<body class="min-h-screen flex flex-col">
+    <header class="border-b border-gray-800 bg-gray-900/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold c25-gradient">Constellation25</h1>
+            <span class="px-3 py-1 text-xs font-medium bg-green-500/10 text-green-400 border border-green-500/20 rounded-full">● Operational</span>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-6 py-12 w-full">
+        <div class="mb-10">
+            <h2 class="text-4xl font-bold mb-4">Sovereign Module Active</h2>
+            <p class="text-gray-400 text-lg max-w-2xl">This module is part of the Constellation25 local-first, zero-scatter AI agent ecosystem. All execution, data processing, and routing occur entirely on-device.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="c25-card">
+                <h3 class="text-xl font-semibold text-white mb-2">Local Execution</h3>
+                <p class="text-sm text-gray-400">Zero cloud dependency. All compute and logic reside on the sovereign edge device.</p>
+            </div>
+            <div class="c25-card">
+                <h3 class="text-xl font-semibold text-white mb-2">Forensic Logging</h3>
+                <p class="text-sm text-gray-400">Total Recall engine actively monitoring and cryptographically signing all state changes.</p>
+            </div>
+            <div class="c25-card">
+                <h3 class="text-xl font-semibold text-white mb-2">Agent Routing</h3>
+                <p class="text-sm text-gray-400">NLP2CODE router dynamically assigning tasks to the 25 Planetary Agents.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
+        <p>© 2026 Constellation25 | Kre8tive Holdings | Owner: CyGeL White</p>
+    </footer>
 </body>
 </html>
